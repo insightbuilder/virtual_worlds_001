@@ -1,0 +1,21 @@
+The launch file configurations, TF2 coordinates, URDF along with Xacro Macro are the key for getting the robots to work. 
+
+We can check how to use RViz to open the URDF provided in Ros2
+
+Robots are built using the mesh file data when a simple primitive shapes cannot be used, inside the URDF
+
+Xacro is used to split the URDF file based on its parts, and use the parts by calling the xacro with parameters
+
+When the robots have to be moved, the state of the robot is published using the TransformBroadcaster, TransformStamped
+
+The key is to understand TF2.
+
+Before that is the Launch files, which help in launching multiple packages. One for the description of 
+the scene, and others can contain the way control the robot transformation.
+
+Then there is Actions, Parameters, Services, topics which are used for talking between the 
+Nodes. Nodes themselves are coded as packages
+
+Gazebo seems to be simulation area, and RViz seems to be the visualisation area. 
+When both in the same workspace, they are able to talk depending on the RViz 
+settings. 
