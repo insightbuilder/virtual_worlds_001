@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>My Documentation</title>
+    <topicref href="azaezar.md" format="markdown"/>
+    <topicref href="chapetehr.md" format="markdown"/>
+    <topicref href="concept.md" format="markdown"/>
+</map>
